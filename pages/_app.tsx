@@ -56,8 +56,8 @@ export default function App({ Component, pageProps }: AppProps) {
           siteName: "DevBites",
         }}
         twitter={{
-          handle: "@ln_dev7",
-          site: "@ln_dev7",
+          handle: "@ezeslucky",
+          site: "@ezeslucky",
           cardType: "summary_large_image",
         }}
       />
