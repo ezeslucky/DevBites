@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "firebase/firestore/updateCodeDocument.jst.jsfirebase/firestore/updateCodeDocument.jsument.js",
+    "firebase/firestore/getIsPrivateCodes.js",
+    "firebase/firestore/getIsPrivateCodes.js",
+    "utils/formatDateTime.js"
+  ],
+  "exclude": ["node_modules"]
+}
