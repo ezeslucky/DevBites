@@ -48,23 +48,15 @@
 
 ### Patch Changes
 
-- [Change of star icon by heart icon ,add trash icon on delete button, use react-query for fetch contributors and many update.](https://https://github.com/ezeslucky/DevBites.git/pull/141) 
+- [Change of star icon by heart icon ,add trash icon on delete button, use react-query for fetch contributors and many update.](https://https://github.com/ezeslucky/DevBites.git/pull) 
 
 - Update dependencies.
 
 - Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
-**Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v0.0.1...v0.0.2
 
-## 0.0.1
 
 ### Start of Releases
 
 **Full Changelog**: [https://https://github.com/ezeslucky/DevBites.git/commits/v0.0.1](https://https://github.com/ezeslucky/DevBites.git/commits/v0.0.1)
 
-#### Contributors
-* @ezeslucky made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/6
-* @Sanix-Darker made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/54
-* @alfredmouelle made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/78
-* @ayenbonsoa made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/101
-* @dependabot made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/134
