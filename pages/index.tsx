@@ -617,7 +617,7 @@ export default function IndexPage() {
           {contributors?.length > 6 && (
             <div className="mt-3 text-sm font-medium">
               <a
-                href="https://github.com/ln-dev7/sharuco/graphs/contributors"
+                href="https://https://github.com/ezeslucky/DevBites.git/graphs/contributors"
                 className="text-blue-500"
               >
                 + {contributors.length - 6} contributors

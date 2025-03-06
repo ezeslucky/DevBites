@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
   ],
   links: {
     twitter: "https://twitter.com/sharuco_app",
-    github: "https://github.com/ln-dev7/sharuco",
+    github: "https://https://github.com/ezeslucky/DevBites.git",
     explore: "/explore",
   },
 }
