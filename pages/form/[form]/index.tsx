@@ -73,10 +73,10 @@ export default function FormPage() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Form : {params["form"]}</title>
+        <title>DevBites | Form : {params["form"]}</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

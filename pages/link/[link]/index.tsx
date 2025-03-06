@@ -50,10 +50,10 @@ export default function LinkPage() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco - Link - {idCurrent}</title>
+        <title>DevBites - Link - {idCurrent}</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -154,7 +154,7 @@ export default function SettingsForms({ dataForm }: { dataForm: any }) {
         } else {
           toast({
             variant: "destructive",
-            title: "This user not exist on Sharuco",
+            title: "This user not exist on DevBites",
             description: "Make sure you have entered the correct user name.",
             action: <ToastAction altText="Okay">Okay</ToastAction>,
           })

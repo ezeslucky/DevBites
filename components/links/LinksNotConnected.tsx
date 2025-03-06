@@ -13,7 +13,7 @@ export default function LinksNotConnected() {
         <Lock className="h-12 w-12" />
         <h3 className="mt-4 text-lg font-semibold">Access denied</h3>
         <p className="mb-4 mt-2 text-sm text-muted-foreground">
-          To access Sharuco Link you must first be logged in.
+          To access DevBites Link you must first be logged in.
         </p>
         <button
           className={cn(

@@ -1,8 +1,8 @@
-# Privacy Policy for Sharuco's Sharuco Website
+# Privacy Policy for DevBites's  Website
 
-Last updated: 5/1/2023
 
-Thank you for visiting Sharuco's Sharuco website. Your privacy is important to us, and we are committed to protecting your personal information. This Privacy Policy describes our practices regarding the collection, use, and disclosure of your personal information.
+
+Thank you for visiting DevBites's  website. Your privacy is important to us, and we are committed to protecting your personal information. This Privacy Policy describes our practices regarding the collection, use, and disclosure of your personal information.
 
 ## Information We Collect
 
@@ -33,12 +33,9 @@ Our website may contain links to other websites that are not operated by us. We 
 
 ## Your Rights
 
-You may have the right to access, correct, or delete the personal information that we hold about you. If you would like to exercise your rights, please contact us at sharuco@leonelngoya.com.
+You may have the right to access, correct, or delete the personal information that we hold about you. If you would like to exercise your rights.
 
 ## Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
 
-## Contact Us
-
-If you have any questions or concerns about this Privacy Policy, please contact us at sharuco@leonelngoya.com.

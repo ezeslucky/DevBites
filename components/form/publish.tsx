@@ -119,14 +119,14 @@ export default function PublishForms({ dataForm }: { dataForm: any }) {
           <Input
             className="w-full"
             type="text"
-            placeholder={`https://sharuco.lndev.me/form/view/${params["form"]}`}
-            value={`https://sharuco.lndev.me/form/view/${params["form"]}`}
+            placeholder={`https://DevBites.lndev.me/form/view/${params["form"]}`}
+            value={`https://DevBites.lndev.me/form/view/${params["form"]}`}
             disabled
           />
           <Button
             onClick={() => {
               copyToClipboard(
-                `https://sharuco.lndev.me/form/view/${params["form"]}`
+                `https://DevBites.lndev.me/form/view/${params["form"]}`
               )
               notifyUrlCopied()
             }}

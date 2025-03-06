@@ -40,7 +40,7 @@ export function SiteFooter() {
         </div>
         <div>
           <Link
-            href="https://github.com/ln-dev7"
+            href="https://github.com/ezeslucky"
             target="_blank"
             rel="noreferrer"
           >

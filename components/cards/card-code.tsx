@@ -109,7 +109,7 @@ export default function CardCode({
 
   const { login, isPending } = useGitHubLogin()
 
-  const shareUrl = `https://sharuco.lndev.me/code-preview/${id}`
+  const shareUrl = `https://DevBites.lndev.me/code-preview/${id}`
 
   const [openShareDialog, setOpenShareDialog] = useState(false)
 
@@ -171,7 +171,7 @@ export default function CardCode({
 
     // download image
     const link = document.createElement("a")
-    link.download = nameOfImage !== "" ? nameOfImage : `sharuco-code-${id}.png`
+    link.download = nameOfImage !== "" ? nameOfImage : `DevBites-code-${id}.png`
     link.href = dataUrl
     link.click()
   }
@@ -333,7 +333,7 @@ export default function CardCode({
                   }}
                 >
                   <h3 className="mb-2 text-center text-lg font-semibold text-white">
-                    sharuco.lndev.me
+                    DevBites.lndev.me
                   </h3>
                   <div className="card-code-image max-w-[1280px] overflow-hidden rounded-lg bg-zinc-900 dark:bg-black">
                     <div className="flex items-center justify-between bg-[#343541] px-4 py-1">
@@ -389,7 +389,7 @@ export default function CardCode({
                     className={cn(
                       "inline-flex h-10 items-center justify-center rounded-md bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200 dark:focus:ring-zinc-400 dark:focus:ring-offset-zinc-900"
                     )}
-                    href={`mailto:sharuco@leonelngoya.com?subject=REPORTING%20A%20CODE%20ON%20SHARUCO&body=Hello,%20%0D%0A%0D%0AI%20want%20to%20report%20this%20code%20https://sharuco.lndev.me/code-preview/${id}%20that%20I%20saw%20on%20Sharuco.%0D%0AThank%20you`}
+                    href={`mailto:DevBites@leonelngoya.com?subject=REPORTING%20A%20CODE%20ON%20DevBites&body=Hello,%20%0D%0A%0D%0AI%20want%20to%20report%20this%20code%20https://DevBites.lndev.me/code-preview/${id}%20that%20I%20saw%20on%20DevBites.%0D%0AThank%20you`}
                   >
                     Report Code
                   </a>
@@ -588,7 +588,7 @@ export default function CardCode({
                     Like a Code to share the love.
                   </AlertDialogTitle>
                   <AlertDialogDescription>
-                    Join Sharuco now to let{" "}
+                    Join DevBites now to let{" "}
                     <a
                       href={
                         dataAuthor && dataAuthor.exists
@@ -641,45 +641,45 @@ export default function CardCode({
                 <div className="flex gap-2">
                   <FacebookShareButton
                     url={shareUrl}
-                    quote={`I discovered this code on sharuco.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithSharuco`}
+                    quote={`I discovered this code on DevBites.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithDevBites`}
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <FacebookIcon size={38} round />
                   </FacebookShareButton>
                   <TwitterShareButton
                     url={shareUrl}
-                    title={`I discovered this code on @sharuco_app , I share it with you here. - « ${description} »`}
-                    hashtags={["CaParleDev", "ShareWithSharuco"]}
+                    title={`I discovered this code on @DevBites_app , I share it with you here. - « ${description} »`}
+                    hashtags={["CaParleDev", "ShareWithDevBites"]}
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <TwitterIcon size={38} round />
                   </TwitterShareButton>
                   <LinkedinShareButton
                     url={shareUrl}
-                    title={`I discovered this code on sharuco.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithSharuco`}
-                    source="https://sharuco.lndev.me"
+                    title={`I discovered this code on DevBites.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithDevBites`}
+                    source="https://DevBites.lndev.me"
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <LinkedinIcon size={38} round />
                   </LinkedinShareButton>
                   <EmailShareButton
                     url={shareUrl}
-                    subject={`Share code on sharuco.lndev.me`}
-                    body={`I discovered this code on sharuco.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithSharuco`}
+                    subject={`Share code on DevBites.lndev.me`}
+                    body={`I discovered this code on DevBites.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithDevBites`}
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <EmailIcon size={38} round />
                   </EmailShareButton>
                   <WhatsappShareButton
                     url={shareUrl}
-                    title={`I discovered this code on sharuco.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithSharuco`}
+                    title={`I discovered this code on DevBites.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithDevBites`}
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <WhatsappIcon size={38} round />
                   </WhatsappShareButton>
                   <TelegramShareButton
                     url={shareUrl}
-                    title={`I discovered this code on sharuco.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithSharuco`}
+                    title={`I discovered this code on DevBites.lndev.me , I share it with you here. - « ${description} » #CaParleDev #ShareWithDevBites`}
                     onClick={() => setOpenShareDialog(false)}
                   >
                     <TelegramIcon size={38} round />

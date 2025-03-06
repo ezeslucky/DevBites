@@ -125,7 +125,7 @@ export function AvatarUser() {
           <>
             <Separator className="mb-4 mt-8" />
             <p className="mb-1 text-sm text-zinc-500 dark:text-zinc-400">
-              Follow Sharuco on{" "}
+              Follow DevBites on{" "}
             </p>
             <Link
               href={siteConfig.links.github}

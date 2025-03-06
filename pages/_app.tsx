@@ -36,24 +36,24 @@ export default function App({ Component, pageProps }: AppProps) {
 				}
 			}`}</style>
       <NextSeo
-        title="Sharuco"
-        description="Sharuco allows you to share code codes that you have found
+        title="DevBites"
+        description="DevBites allows you to share code codes that you have found
             useful."
-        canonical="https://sharuco.lndev.me/"
+        canonical="https://DevBites.lndev.me/"
         openGraph={{
-          url: "https://sharuco.lndev.me/",
-          title: "Sharuco",
+          url: "https://DevBites.lndev.me/",
+          title: "DevBites",
           description:
-            "Sharuco allows you to share code codes that you have found useful.",
+            "DevBites allows you to share code codes that you have found useful.",
           images: [
             {
-              url: "https://sharuco.lndev.me/sharuco-banner.png",
-              alt: "Sharuco",
+              url: "https://DevBites.lndev.me/DevBites-banner.png",
+              alt: "DevBites",
               type: "image/jpeg",
-              secureUrl: "https://sharuco.lndev.me/sharuco-banner.png",
+              secureUrl: "https://DevBites.lndev.me/DevBites-banner.png",
             },
           ],
-          siteName: "Sharuco",
+          siteName: "DevBites",
         }}
         twitter={{
           handle: "@ln_dev7",

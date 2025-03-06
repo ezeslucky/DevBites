@@ -104,10 +104,10 @@ export default function User() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco - {idCurrent}</title>
+        <title>DevBites - {idCurrent}</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -199,7 +199,7 @@ export default function User() {
                         ?
                       </AlertDialogTitle>
                       <AlertDialogDescription>
-                        Join Sharuco now !
+                        Join DevBites now !
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <AlertDialogFooter>

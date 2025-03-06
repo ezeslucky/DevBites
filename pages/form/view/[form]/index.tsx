@@ -232,7 +232,7 @@ export default function FormViewPage() {
   //     dataForm?.data?.amountNotchPay,
   //     dataForm?.data?.name,
   //     dataForm?.data?.publicNotchPayApiKey,
-  //     `https://sharuco.lndev.me/form/view/${params["form"]}`
+  //     `https://DevBites.lndev.me/form/view/${params["form"]}`
   //     //`http://localhost:3000/form/view/${params["form"]}`
   //   )
   //   resetPayment({
@@ -243,10 +243,10 @@ export default function FormViewPage() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | View Form</title>
+        <title>DevBites | View Form</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -257,7 +257,7 @@ export default function FormViewPage() {
           <div className="flex w-full items-center justify-start">
             <Link href="/forms" className="flex items-center font-bold">
               <Terminal className="mr-2 h-6 w-6" />
-              Sharuco Form
+              DevBites Form
             </Link>
           </div>
           <Separator />
@@ -518,7 +518,7 @@ export default function FormViewPage() {
             <Link href="/">
               Powered by{" "}
               <span className="font-bold hover:underline hover:underline-offset-4">
-                Sharuco
+                DevBites
               </span>
             </Link>
           </div>

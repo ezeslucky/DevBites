@@ -135,8 +135,8 @@ export default function ResponsesForms({ dataForm }: { dataForm: any }) {
       })
 
     pdf.setFontSize(10)
-    pdf.textWithLink("Powered by SHARUCO FORM", 10, yPos + 10, {
-      url: "https://sharuco.lndev.me/forms",
+    pdf.textWithLink("Powered by DevBites FORM", 10, yPos + 10, {
+      url: "https://DevBites.lndev.me/forms",
     })
 
     // Preview the PDF in a new tab

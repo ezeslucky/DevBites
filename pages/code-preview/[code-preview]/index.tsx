@@ -194,7 +194,7 @@ export default function CodePreview() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco - Code : {params["code-preview"]}</title>
+        <title>DevBites - Code : {params["code-preview"]}</title>
 
         <meta
           property="og:description"
@@ -203,11 +203,11 @@ export default function CodePreview() {
         <meta name="description" content={`${dataCode?.data?.description}`} />
         <meta
           property="og:url"
-          content={`https://sharuco.lndev.me/${params["code-preview"]}`}
+          content={`https://DevBites.lndev.me/${params["code-preview"]}`}
         />
         <link
           rel="canonical"
-          href={`https://sharuco.lndev.me/${params["code-preview"]}`}
+          href={`https://DevBites.lndev.me/${params["code-preview"]}`}
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />

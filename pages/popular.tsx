@@ -30,10 +30,10 @@ export default function Popular() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Popular code</title>
+        <title>DevBites | Popular code</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

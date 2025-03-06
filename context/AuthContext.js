@@ -66,7 +66,7 @@ export const AuthContextProvider = ({ children }) => {
           <Loader className="animate-spin" />
           <div className="flex items-center gap-1">
             <Terminal />
-            <span className="font-semibold text-lg">Sharuco</span>
+            <span className="font-semibold text-lg">DevBites</span>
           </div>
         </div>
       ) : (

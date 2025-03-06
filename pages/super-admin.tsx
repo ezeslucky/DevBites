@@ -48,10 +48,10 @@ export default function SuperAdmin() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Super Admin</title>
+        <title>DevBites | Super Admin</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,7 +67,7 @@ export default function SuperAdmin() {
               <span className="font-bold">{dataUsers.length} users </span>
               registered and{" "}
               <span className="font-bold">{dataCodes.length} codes</span> shared
-              on Sharuco
+              on DevBites
             </p>
           )}
         </div>

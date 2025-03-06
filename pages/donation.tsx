@@ -10,10 +10,10 @@ export default function Donation() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Make a donation</title>
+        <title>DevBites | Make a donation</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,10 +22,10 @@ export default function Donation() {
       <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-2xl font-bold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl">
-            Support Sharuco
+            Support DevBites
           </h1>
           <p className="max-w-[700px] text-lg text-zinc-700 sm:text-xl dark:text-zinc-400">
-            Sharuco is a free and open source project.
+            DevBites is a free and open source project.
             <br className="hidden sm:inline" /> If you want to support the
             project, you can make a donation.
           </p>

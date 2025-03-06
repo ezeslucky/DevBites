@@ -57,7 +57,7 @@ export default function IndexPage() {
     isLoading: isLoadingContributors,
     isError: isErrorContributors,
   } = useQuery("contributors", () =>
-    fetch("https://api.github.com/repos/ln-dev7/sharuco/contributors").then(
+    fetch("https://api.github.com/repos/ezeslucky/DevBites/contributors").then(
       (response) => response.json()
     )
   )
@@ -100,7 +100,7 @@ export default function IndexPage() {
     link.download =
       nameOfImage !== ""
         ? nameOfImage
-        : `sharuco-code-${Math.random().toString(36).substring(7)}.png`
+        : `DevBites-code-${Math.random().toString(36).substring(7)}.png`
     link.href = dataUrl
     link.click()
   }
@@ -124,10 +124,10 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco</title>
+        <title>DevBites</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -144,10 +144,10 @@ export default function IndexPage() {
             className="mx-2 h-4 w-[1px] shrink-0 bg-zinc-200 dark:bg-zinc-700"
           ></div>
           <span className="text-zinc-800 sm:hidden dark:text-zinc-200">
-            Sharuco Form, Create and share your forms.
+            DevBites Form, Create and share your forms.
           </span>
           <span className="hidden text-zinc-800 sm:inline dark:text-zinc-200">
-            Introducing Sharuco Form, Create and share your forms.
+            Introducing DevBites Form, Create and share your forms.
           </span>
           <svg
             width="15"
@@ -390,7 +390,7 @@ export default function IndexPage() {
                     }}
                   >
                     <h3 className="mb-2 text-center text-lg font-semibold text-white">
-                      sharuco.lndev.me
+                      DevBites.lndev.me
                     </h3>
                     <div className="card-code-image max-w-[1280px] overflow-hidden rounded-lg bg-zinc-900 dark:bg-black">
                       <div className="flex items-center justify-between bg-[#343541] px-4 py-1">
@@ -434,10 +434,10 @@ export default function IndexPage() {
         <div className="mt-16 flex w-full flex-col items-start gap-4">
           <div className="flex w-full flex-col items-center justify-center gap-2">
             <h2 className="text-3xl font-bold leading-tight tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-              Sharuco Form
+              DevBites Form
             </h2>
             <p className="text-md max-w-[700px] text-center text-zinc-700 sm:text-lg dark:text-zinc-400">
-              Sharuco Form allows you to create forms to collect information
+              DevBites Form allows you to create forms to collect information
               from your users.
             </p>
           </div>
@@ -458,7 +458,7 @@ export default function IndexPage() {
                 <div className="w-full overflow-hidden rounded-md border border-zinc-200 bg-zinc-100 dark:bg-zinc-800">
                   <Image
                     src="/home/form-1.png"
-                    alt="Sharuco Form"
+                    alt="DevBites Form"
                     width={2880}
                     height={1448}
                     className="h-full w-full object-cover"
@@ -470,7 +470,7 @@ export default function IndexPage() {
                 <div className="w-full overflow-hidden rounded-md bg-zinc-100 dark:border dark:border-zinc-800 dark:bg-zinc-800">
                   <Image
                     src="/home/form-2.png"
-                    alt="Sharuco Form"
+                    alt="DevBites Form"
                     width={2880}
                     height={1448}
                     className="h-full w-full object-cover"
@@ -502,7 +502,7 @@ export default function IndexPage() {
                 <div className="w-full overflow-hidden rounded-md border border-zinc-200 bg-zinc-100 dark:bg-zinc-800">
                   <Image
                     src="/home/form-3.png"
-                    alt="Sharuco Form"
+                    alt="DevBites Form"
                     width={2880}
                     height={1448}
                     className="h-full w-full object-cover"
@@ -514,7 +514,7 @@ export default function IndexPage() {
                 <div className="w-full overflow-hidden rounded-md bg-zinc-100 dark:border dark:border-zinc-800 dark:bg-zinc-800">
                   <Image
                     src="/home/form-4.png"
-                    alt="Sharuco Form"
+                    alt="DevBites Form"
                     width={2880}
                     height={1448}
                     className="h-full w-full object-cover"
@@ -537,7 +537,7 @@ export default function IndexPage() {
                 href="/forms"
                 className={buttonVariants({ size: "lg", variant: "subtle" })}
               >
-                Go to Sharuco Form
+                Go to DevBites Form
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
@@ -546,10 +546,10 @@ export default function IndexPage() {
         <div className="mt-16 flex w-full flex-col items-start gap-4">
           <div className="flex w-full flex-col items-start justify-center gap-2">
             <h2 className="text-xl font-bold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
-              Discover Sharuco Link
+              Discover DevBites Link
             </h2>
             <p className="text-md max-w-[700px] text-zinc-700 sm:text-lg dark:text-zinc-400">
-              Sharuco Link is a simple way to store all the links that are
+              DevBites Link is a simple way to store all the links that are
               useful to you and with possibilities to make everyone discover
               them.
             </p>
@@ -557,8 +557,8 @@ export default function IndexPage() {
           <div className="flex w-full flex-col items-center justify-center gap-4">
             <div className="w-full overflow-hidden rounded-md bg-zinc-100 dark:border dark:border-zinc-700 dark:bg-zinc-800">
               <Image
-                src="/home/sharuco-link.png"
-                alt="Sharuco Link"
+                src="/home/DevBites-link.png"
+                alt="DevBites Link"
                 width={2880}
                 height={1448}
                 className="w-full "
@@ -567,7 +567,7 @@ export default function IndexPage() {
             </div>
             <div className="flex w-fit items-center justify-center">
               <Link href="/links" className={buttonVariants({ size: "lg" })}>
-                Go to Sharuco Link
+                Go to DevBites Link
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>

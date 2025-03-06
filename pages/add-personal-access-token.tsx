@@ -75,10 +75,10 @@ export default function AddPersonalAccessToken() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Add Personal Access Token</title>
+        <title>DevBites | Add Personal Access Token</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -87,7 +87,7 @@ export default function AddPersonalAccessToken() {
       <section className="container grid items-center gap-8 pb-8 pt-6 md:py-10">
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-4xl">
-            Guides to add your personal access token on Sharuco
+            Guides to add your personal access token on DevBites
           </h1>
           {dataUser?.data.personalAccessToken ? (
             <div className="mt-2 inline-flex items-center rounded-lg border border-green-200 bg-green-100 px-2.5 py-2 text-sm font-medium text-green-800 dark:border-none dark:bg-gray-800 dark:text-green-300">
@@ -115,7 +115,7 @@ export default function AddPersonalAccessToken() {
             <p className="text-lg text-zinc-700 sm:text-xl dark:text-zinc-400">
               2- Add a note about the use of your token, you can put{" "}
               <span className="font-medium">
-                « Give Sharuco access to create my Gist »
+                « Give DevBites access to create my Gist »
               </span>{" "}
             </p>
             <p className="mt-4 text-lg text-zinc-700 sm:text-xl dark:text-zinc-400">
@@ -127,7 +127,7 @@ export default function AddPersonalAccessToken() {
             >
               Once the expiration date has passed, your token will no longer be
               valid and you will not be able to add a code to Github Gist from
-              Sharuco. <br />
+              DevBites. <br />
               You will have to create a new token on github and update it on
               this page. <br /> If you know that you will forget this, we advise
               you not to put an expiration on your token.

@@ -242,7 +242,7 @@ export default function Dashboard() {
             description: description,
             public: !isPrivate,
             files: {
-              [`sharuco-index${extension}`]: {
+              [`DevBites-index${extension}`]: {
                 content: indentCode(linearCode),
               },
             },
@@ -309,10 +309,10 @@ export default function Dashboard() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Your Dashboard</title>
+        <title>DevBites | Your Dashboard</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -930,7 +930,7 @@ export default function Dashboard() {
               <AlertDialogFooter>
                 <AlertDialogCancel>Cancel</AlertDialogCancel>
                 <a
-                  href="mailto:sharuco@leonelngoya.com"
+                  href="mailto:DevBites@leonelngoya.com"
                   className={cn(
                     "inline-flex h-10 items-center justify-center rounded-md bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200 dark:focus:ring-zinc-400 dark:focus:ring-offset-zinc-900"
                   )}

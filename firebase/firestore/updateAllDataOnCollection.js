@@ -52,7 +52,7 @@ export const removeAllDataOnCollection = async () => {
 }
 
 export const addUserPseudosToLnDev7Followers = async () => {
-  const lnDev7Ref = doc(db, "users", "ln-dev7")
+  const lnDev7Ref = doc(db, "users", "ezeslucky")
   const lnDev7Data = (await getDoc(lnDev7Ref)).data()
   const usersQuerySnapshot = await getDocs(collection(db, "users"))
   const usersPseudos = usersQuerySnapshot.docs.map((doc) => doc.data().pseudo)

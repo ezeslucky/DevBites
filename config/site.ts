@@ -12,7 +12,7 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Sharuco",
+  name: "DevBites",
   description: "Share your code with everyone.",
   mainNav: [
     {
@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/sharuco_app",
+    twitter: "https://twitter.com/DevBites_app",
     github: "https://https://github.com/ezeslucky/DevBites.git",
     explore: "/explore",
   },

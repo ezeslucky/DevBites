@@ -97,10 +97,10 @@ export default function Forms() {
   return (
     <Layout>
       <Head>
-        <title>Sharuco | Forms</title>
+        <title>DevBites | Forms</title>
         <meta
           name="description"
-          content="Sharuco allows you to share code codes that you have found
+          content="DevBites allows you to share code codes that you have found
           useful."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -109,7 +109,7 @@ export default function Forms() {
       <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-4xl lg:text-4xl">
-            Sharuco Form
+            DevBites Form
           </h1>
           <p
             className={cn(

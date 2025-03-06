@@ -1,10 +1,10 @@
-# @ln-dev7/sharuco
+# @ezeslucky/DevBites
 
 ## 1.0.1
 
 ### Patch Changes
 
-- Thanks [@ln-dev7](https://github.com/ln-dev7)!
+- Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
 **Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v1.0.0...v1.0.1
 
@@ -12,7 +12,7 @@
 
 ### Major Changes
 
-- Thanks [@ln-dev7](https://github.com/ln-dev7)!
+- Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
 **Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v0.2.0...v1.0.0
 
@@ -26,7 +26,7 @@
 
 - [View code on stackblitz](https://https://github.com/ezeslucky/DevBites.git/pull/154)
 
-- Thanks [@ln-dev7](https://github.com/ln-dev7)!
+- Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
 **Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v0.1.0...v0.2.0
 
@@ -40,7 +40,7 @@
 
 - Update dependencies.
 
-- Thanks [@ln-dev7](https://github.com/ln-dev7)!
+- Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
 **Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v0.0.2...v0.1.0
 
@@ -52,7 +52,7 @@
 
 - Update dependencies.
 
-- Thanks [@ln-dev7](https://github.com/ln-dev7)!
+- Thanks [@ezeslucky](https://github.com/ezeslucky)!
 
 **Full Changelog**: https://https://github.com/ezeslucky/DevBites.git/compare/v0.0.1...v0.0.2
 
@@ -63,7 +63,7 @@
 **Full Changelog**: [https://https://github.com/ezeslucky/DevBites.git/commits/v0.0.1](https://https://github.com/ezeslucky/DevBites.git/commits/v0.0.1)
 
 #### Contributors
-* @ln-dev7 made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/6
+* @ezeslucky made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/6
 * @Sanix-Darker made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/54
 * @alfredmouelle made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/78
 * @ayenbonsoa made their first contribution in https://https://github.com/ezeslucky/DevBites.git/pull/101
