@@ -37,3 +37,16 @@ npm run build
 # or on dev mode
 npm run dev
 ```
+
+## Usage
+
+The application is accessible at http://localhost:3000/.
+
+## Contributing
+
+Contributions are welcome! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a branch for your contribution with `git checkout -b my_new_feature`.
+3. Make your changes.
+4. Submit a pull request on master branch.
