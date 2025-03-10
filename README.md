@@ -4,7 +4,7 @@
 
 ```bash
 # clone the repository and cd into it:
-git clone (https://github.com/ezeslucky/DevBites.git) && cd DevBites
+git clone [https://github.com/ezeslucky/DevBites.git] && cd DevBites
 
 # copy the .env.example to .env and fill all env variables
 cp .env.example .env
